@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =================================registration button================================ -->
+
+    <button id="regbtn">click to registration</button>
+
+    <!-- ==================================registration form================================== -->
+    <div class="regdiv">
+        <form action="">
+            <a href="#" class="fa fa-arrow-left" id="regback"></a><span id="regheading">RGISTRATION FORM</span><a
+                href="#" class="fa fa-close" id="regclose"></a><br>
+            <input type="text" placeholder="ENTER FIRST NAME" required id="reginput" autofocus><br>
+            <input type="text" placeholder="ENTER LAST NAME" required id="reginput"><br>
+            <input type="email" placeholder="ENTER GMAIL ID" required id="reginput"><br>
+            <input type="text" placeholder="ENTER MOBILE NUMBER" required id="reginput"><br>
+            <span id="regcheckbox"><input type="checkbox" required id="regcheck">&nbsp;&nbsp;your privacy is our
+                responsibility.</span><br>
+            <a href="#" class="a1">Have You Account ?</a><br>
+            <button type="submit" id="regsubmit">SUBMIT</button><button type="reset" id="regsubmit">RESET</button>
+        </form>
+    </div>
+    <div class="regterminated">
+        <h1>REGISTRATION TERMINATED</h1>
+        <button id="regbtn2">CLICK TO REGISTRATION</button>
+    </div>
+    <!-- ============================registration succesfull============================== -->
+    <div class="regsuccesfull">
+        <h1>REGISTRATION SUCCESFULL</h1>
+        <p>You will receive a massage on mail please varify the the mail by clicking the given link.</p>
+        <button id="regsuccbtn">CLICK TO LOGIN</button>
+    </div>
+
+    <!-- ==================================login form===================================== -->
+    <div class="logindiv">
+        <form action="">
+            <a href="#" class="fa fa-arrow-left" id="loginback"></a><span id="loginheading">LOGIN FORM</span><a href="#"
+                class="fa fa-close" id="loginclose"></a><br>
+            <input type="text" placeholder="ENTER USER ID" required id="logininput" autofocus><br>
+            <input type="password" placeholder="ENTER PASSWORD" required id="logininput"><br>
+            <!-- <input type="password" id="password" placeholder=""><button id="toggle-visibility"><i class="fa fa-eye" style="font-size: 1.8rem;"></i></button> -->
+            <a href="#" id="logina">Forget password ?</a><br>
+            <button type="submit" id="loginsubmit">SUBMIT</button><button type="reset" id="loginsubmit">RESET</button>
+        </form>
+    </div>
+    <!-- ======loginterminated==== -->
+    <div class="loginterminated">
+    <form action="">
+        <h1>LOGIN TERMINATED</h1>
+        <button id="loginbtn2">CLICK TO LOGIN</button>
+    </form>
+    </div>
+    <!-- ======================================forget password============================ -->
+    <div class="forgetpassword">
+    <form action="">
+        <h1>DON'T WORRY WE HAVE ANOTHER WAY</h1>
+        <input type="email" placeholder="ENTER MAIL" id="forgetpasswordinput" required><br>
+        <button id="forgetsubmitbtn">SUBMIT</button>
+    </form>
+    </div>
+    <!-- ===================================YOY GET A MAIL WITHIN 30 SEC====================== -->
+    <div class="getingmail">
+        <h1>YOU GET A MAIL WITHIN 30 SEC</h1>
+        <span>if you did not get a mail then click on below link</span><br><a href="#">resend mail</a>
+    </div>
+    <!-- =====================================welcome===================================== -->
+    <div class="welcome">
+    <form action="post" target="_self">
+        <h1>WELCOME USER NAME</h1>
+        <p>THIS IS A GREETING PAGE</p>
+        <a href="webpage.html" id="welcomebtn">CLICK TO DASHBOARD</a>
+    </form>
+    </div>
+    <script src="app1.js"></script>
+</body>
+
+</html>

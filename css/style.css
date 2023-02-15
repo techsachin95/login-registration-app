@@ -1,0 +1,230 @@
+   /* =======google font-family import========= */
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ /* ==============variable define==================== */
+ :root {
+    --primary-color:#A82c48;
+    --secondry-color:#43121d;
+    --third-color:#f98169;
+    --text-color:#555;
+    --text-gray:#999;
+    --btn-color:white;
+    --primary-font:'roboto',sans-serif;
+    --secondry-font:'quicksand',sans-serif;
+    --head-color:black;
+ }
+ body h1{
+     color: var(--head-color);
+     font-family: var(--primary-font);
+     font-weight: 700;
+     text-transform: capitalize;
+ }
+ /* =================scroll behaviour====================== */
+  html{
+     scroll-behavior: smooth;
+ }
+ /* ===============variable call====================== */
+ body {
+     font-family: var();
+     font-size: 18px;
+ }
+ p {
+     font-family: var(--primary-font);
+     color: var(--text-color);
+ }
+.top-navbar.scroll-on{
+    position: fixed;top: 0;left: 0;z-index: 1;
+    width: 100%;background-color: var(--btn-color);
+    box-shadow: .5rem 0 1rem black;
+    transition: all .15s ease-in-out 0s;
+}
+ /* ==============customise scroll bar================== */
+ ::-webkit-scrollbar{
+     width: 0.5rem;
+ }
+ ::-webkit-scrollbar-track{
+     background-color: black;
+     
+ }
+ ::-webkit-scrollbar-thumb{
+     background-color:var(--primary-color);
+     
+ }
+
+ /* ====================navebar============================ */
+ .top-navbar a{
+     margin-left: 1rem;text-decoration: none;color: var(--primary-color);
+    text-transform: capitalize;font-family: var(--primary-font);
+    font-weight: bold;
+ }
+ .top-navbar button{
+    background-color: var(--primary-color);
+    border-radius: none;border: none;padding: .5rem;
+    box-shadow: .2rem 0rem .2rem;color: var(--btn-color);
+ }
+ .top-navbar button:hover{
+    background-color: #A82c20;
+ }
+ .nav-link.active {
+    font-weight: bold;
+    color: #333;
+    border-bottom: .15rem solid var(--primary-color);
+  }
+  .sachin.active{
+    display:none;
+  }
+ /* ====================top banner================== */
+.top-banner{
+    background-image: url(../photo/bg-photo/redfruit.jpg);padding: 12.735rem 0 9.735rem;
+    background-size: cover;background-repeat: no-repeat;background-position: center;
+ }
+ /* .top-photo{margin-top: 90px;} */
+ .top-heading{
+    margin-top: 3rem;
+ }
+ .top-banner button{
+    background-color: var(--primary-color);font-size: 1rem;
+    border-radius: none;border: none;width: 13rem;padding: .8rem;
+    color: var(--btn-color);font-size: 1.4rem;text-transform: capitalize;
+    margin-bottom: 1rem;
+ }
+ .top-banner button:hover{
+    background-color: #A82c20;
+ }
+/* =====================conter section====================== */
+.counter-section{
+    background-color: var(--primary-color);
+    text-align: center;height: 7rem;
+}
+.counter-section span{
+    color: var(--btn-color);
+    font-size: 10px;
+}
+.counter-section p{
+    color: var(--btn-color);font-weight: 500;
+    font-size: 18px;
+}
+/* ==============aboutus section===================== */
+ .aboutus-section button{
+        background-color: var(--primary-color);
+        border-radius: none;border: none;
+        color: var(--btn-color);font-size: 1rem;text-transform: capitalize;
+}
+.aboutus img{
+    border-radius: 1rem;
+}    
+.aboutus-section button:hover{
+    background-color: #A82c20;
+ }
+/* ======================story section================================ */
+/* .story-section{
+    background: url(../photo/bg-photo/bagan.jpg) no-repeat;
+    background-size: cover;
+} */
+.story-section{
+    background: url("../photo/bg-photo/bagan.jpg") no-repeat center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.explore-foods .card{
+    border: none;
+}
+#explore-foods .fname{
+    font-size: 1.5rem;font-weight: 700;
+}
+#explore-foods .fdetails{
+    font-size: 1.2rem;font-weight: 500;
+}
+#explore-foods span{
+    font-size: 1.1rem;font-weight: 500;
+}
+#explore-foods button{
+    background-color: var(--primary-color);
+    border-radius: none;border: none;
+    color: var(--btn-color);font-size: 1rem;text-transform: capitalize;
+}
+#explore-foods button:hover{
+    background-color: #A82c20;opacity: .9;
+}
+.cresal .whitebg{
+    height: 40rem;
+}
+.cresal{
+    background-color: var(--primary-color);
+}
+.tmblock{
+    height: 30rem;
+}
+.satru button{
+    color: #333;
+}
+.tmblock1{
+    padding-bottom: 25rem;
+}
+.tmblock h1{color: var(--btn-color);}
+.tmblock2{
+    height: 18rem;
+}
+/* .tmblock3{
+    background-image: url(../photo/bg-photo/whitepage.jpg);
+} */
+.firstclient{
+     height: 5rem;width: 5rem;
+}
+.faqfc h1{
+    color: var(--primary-color);
+}
+.faqfc h4{
+    color: var(--primary-color);
+}
+.bgfixedimage1{
+    background: url(../photo/bg-photo/s10.jpg) no-repeat center fixed;
+    background-position: cover;padding: 1.8rem;
+}
+.bgfixedimage1 span{
+    color: white;font-size: 2rem;
+}
+.bgfixedimage1 button{
+    background-color: var(--primary-color);
+    border-radius: none;border: none;margin-left: 16rem;
+    color: var(--btn-color);font-size: 1rem;text-transform: capitalize;
+}
+#bgfixedimage1 button:hover{
+    background-color: #A82c20;opacity: .9;
+}
+#news h2{
+    width: 50rem;margin: auto;color: var(--primary-color);margin-bottom: 1.8rem;
+}
+#news p{
+    font-size: 1rem;
+}
+#news input{
+    width: 22rem;margin-top: 1rem;font-size: 1.1rem;
+}
+#news button{
+    width: 10rem;margin-left: .7rem;background-color: var(--primary-color);
+    border-radius: none;border: none;margin-top: 1rem;
+    color: var(--btn-color);font-size: 1rem;
+}
+.mfooter{
+    background-color: var(--primary-color);margin-top: 6rem;padding: 1rem; 
+}
+.mfooter a{
+text-decoration: none;color: var(--btn-color);margin-left: 1.8rem;
+}
+.mfooter p{
+    margin-left: 1.2rem;color: var(--btn-color);
+}
+.mfooter a:hover{
+    color:orange;
+}
+.mfooter .tb{
+    margin-left: 1rem;font-size: 1.3rem;margin-bottom: 4.5rem;
+}

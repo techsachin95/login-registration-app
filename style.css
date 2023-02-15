@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+/* =========================registration button=================== */
+#regbtn{
+    background-color:#192a56;font-size: 1rem;
+    padding: 1rem;color: white;font-weight: bold;
+    text-transform: uppercase;border-radius: 1.5rem;
+    border: none;position: absolute;top: 50%;left: 50%;transform: translate(-50%);
+}
+#regbtn:hover{
+    background-color: #273c75;
+}
+
+/* ===================registration division====================== */
+.regdiv{
+    height: 35rem;width: 35rem;padding-top: 3rem;
+    background-color: #192a56;color: white;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 8%;left: 50%;transform: translate(-50%);
+}
+#regback{
+    font-size: 2rem;text-decoration: none;color: white;margin-bottom: 1.5rem;position:absolute;top: 1rem;left: 1.5rem;}
+#regheading{font-size: 2.5rem;font-family: Arial, Helvetica, sans-serif;margin: 1.4rem;font-weight: bold;}
+#regclose{
+    font-size: 2rem;text-decoration: none;color: white;position:absolute;top: 1rem;right: 1rem;}
+#reginput{
+    padding: .9rem;margin: .8rem;width: 27rem;border-radius: .5rem;font-size: 1rem;
+}
+#regcheckbox{padding: 1rem;font-size: 1.2rem;}
+#regcheck{height: 1rem;width: 1rem;margin-top: .8rem;}
+.regdiv .a1{
+    color: white;text-decoration: none;font-size: 1.1rem;
+}
+.regdiv .a1:hover{color: red;}
+#regsubmit{ padding: .9rem;margin: .5rem;width: 13rem;border:none;font-size: 4rem;font-weight: bold;
+    border-radius: .5rem;font-size: 1rem;background-color: #ffa502; margin-top: 1.5rem;cursor: pointer;}
+/* ========================reg-terminated======================== */
+.regterminated{
+    height: 15rem;width: 33rem;padding: 1.9rem;
+    background-color:red;color: black;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 28%;left: 50%;transform: translate(-50%);
+}
+.regterminated h1{margin-top: 1.5rem;}
+#regbtn2{
+    padding: .9rem;margin: 1.5rem;width: 17rem;border:none;font-size: 4rem;font-weight: bold;cursor: pointer;
+    border-radius: .5rem;font-size: 1rem;background-color: orange; margin-top: 1.5rem;color: white;
+}
+
+/* =====================reg-succesfull=========================== */
+.regsuccesfull{
+    height: 14rem;width: 33rem;padding: 1.9rem;
+    background-color:#4cd137;color: black;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 30%;left: 50%;transform: translate(-50%);
+}
+.regsuccesfull p{
+    margin-top: 1rem;font-size: 1.2rem;font-weight: bold;
+}
+#regsuccbtn{
+    padding: .9rem;margin: .5rem;width: 13rem;border:none;font-size: 4rem;font-weight: bold;cursor: pointer;
+    border-radius: .5rem;font-size: 1rem;background-color: #192a56; margin-top: 1.5rem;color: white;
+}
+/* ======================login form============================= */
+
+
+.logindiv{
+    height: 25rem;width: 30rem;padding: 2.5rem;
+    background-color: #192a56;color: white;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 20%;left: 50%;transform: translate(-50%);
+}
+#loginback{
+    font-size: 2rem;text-decoration: none;color: white;margin-bottom: 1.5rem;position:absolute;top: 1rem;left: 1rem;}
+#loginheading{font-size: 2.5rem;font-family: Arial, Helvetica, sans-serif;margin: 2rem;font-weight: bold;}
+#loginclose{
+    font-size: 2rem;text-decoration: none;color: white;margin-bottom: 1rem;position:absolute;top: 1rem;right: 1rem;
+}
+#logininput{
+    padding: .9rem;margin: .8rem;width: 23rem;border-radius: .5rem;font-size: 1rem;
+}
+#password{padding: .9rem;margin: .8rem;width: 20rem;border-radius: .5rem;font-size: 1rem;}
+#logina{text-decoration: none;color: white;font-size: 1.5rem;}
+#logina:hover{color: red;}
+#loginsubmit{ padding: .9rem;margin: .5rem;width: 11rem;border:none;font-size: 4rem;font-weight: bold;
+    border-radius: .5rem;font-size: 1rem;background-color: #ffa502; margin-top: 1.5rem;cursor: pointer;}
+/* ========================login terminated==================== */
+.loginterminated{
+    height: 15rem;width: 33rem;padding: 1.9rem;
+    background-color:red;color: black;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 28%;left: 50%;transform: translate(-50%);
+}
+.loginterminated h1{margin-top: 2rem;}
+#loginbtn2{
+    padding: .9rem;margin: 1.5rem;width: 17rem;border:none;font-size: 4rem;font-weight: bold;cursor: pointer;
+    border-radius: .5rem;font-size: 1rem;background-color: orange; margin-top: 1.5rem;color: white;
+}
+/* ==========================forget password=================== */
+.forgetpassword{
+    height: 19rem;width: 33rem;padding: 1.9rem;
+    background-color:#192a56;color: white;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 28%;left: 50%;transform: translate(-50%);
+}
+.forgetpassword h1{
+    margin-top: 1rem;font-size: 1.5rem;font-weight: bold;
+}
+#forgetpasswordinput{
+    padding: .9rem;margin: .8rem;width: 23rem;border-radius: .5rem;font-size: 1rem;
+}
+#forgetsubmitbtn{
+    padding: .9rem;margin: .5rem;width: 13rem;border:none;font-size: 4rem;font-weight: bold;cursor: pointer;
+    border-radius: .5rem;font-size: 1rem;background-color: orange; margin-top: 1.5rem;color: white;
+}
+/* ===========================geting a mail===================== */
+.getingmail{
+    height: 10rem;width: 33rem;padding: 1.9rem;
+    background-color:#192a56;color: white;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 37%;left: 50%;transform: translate(-50%);
+}
+.getingmail h1{
+    margin-top: .8rem;font-size: 1.8rem;font-weight: bold;margin-bottom: 1rem;
+}
+.getingmail span{
+    font-size: 1.2rem;
+}
+.getingmail a{
+color: greenyellow;text-decoration: none;font-size: 1.2rem;
+}
+/* ===========================welcome======================= */
+.welcome{
+    height: 14rem;width: 33rem;padding: 1.9rem;
+    background-color:#192a56;color: white;
+    text-align: center;border-radius: 2rem;display: none;
+    position: absolute;top: 33%;left: 50%;transform: translate(-50%);
+}
+.welcome p{
+    margin-top: 1rem;font-size: 1.2rem;font-weight: bold;
+}
+#welcomebtn{
+    padding: .9rem;margin: .5rem;width: 18rem;border:none;font-size: 1rem;font-weight: bold;cursor: pointer;
+    border-radius: .5rem;background-color: #ffa502;color: white;
+    text-decoration: none;
+}
